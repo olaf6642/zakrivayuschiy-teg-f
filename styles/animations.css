@@ -1,3 +1,63 @@
+.heart .core {
+  transition: fill 0.3s 0.03s linear;
+  fill: transparent;
+}
+
+.heart .main-body {
+  transition: fill 0.3s linear;
+  fill: transparent;
+}
+
+.heart .contour {
+  transition: fill 0.1s linear;
+  fill: var(--accent-color);
+}
+
+.heart:hover .core {
+  transition: fill 0.3s linear;
+  fill: var(--accent-color);
+}
+
+.heart:hover .main-body {
+  transition: fill 0.3s 0.05s linear;
+  fill: var(--accent-color);
+}
+
+.heart:active .core {
+  transition: fill 0.3s linear;
+  fill: var(--svg-sparks-color);
+}
+
+.heart:active .main-body {
+  transition: fill 0.3s 0.05s linear;
+  fill: var(--svg-sparks-color);
+}
+
+.like-icon.is-liked .core {
+  transition: fill 0.3s linear;
+  fill: var(--svg-sparks-color);
+}
+
+.like-icon.is-liked .main-body {
+  transition: fill 0.3s 0.05s linear;
+  fill: var(--svg-sparks-color);
+}
+
+.like-icon.is-liked .contour {
+  transition: fill 0.3s 0.06s linear;
+  fill: var(--svg-sparks-color);
+}
+
+.like-icon.is-liked .heart {
+  animation: heart 0.3s 0.1s ease-in;
+  transform-origin: center;
+}
+
+.like-icon.is-liked .sparks {
+  animation: sparks 0.3s 0.3s ease-in;
+  transform-origin: center;
+}
+
 @keyframes swaying {
 
   0%,
