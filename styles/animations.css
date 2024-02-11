@@ -1,14 +1,35 @@
 @keyframes swaying {
-  0%, 100% {left: -20px;}
-  50% {left: -16px;}
+
+  0%,
+  100% {
+    left: -20px;
+  }
+
+  50% {
+    left: -16px;
+  }
 }
 
 @keyframes heart {
-  0%, 100% {transform: scale(1); }
-  50% {transform: scale(1.5); }
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
 }
 
 @keyframes sparks {
-  0%, 100% {fill: transparent; }
-  50% {fill: var(--svg-sparks-color); }
+
+  0%,
+  100% {
+    fill: transparent;
+  }
+
+  50% {
+    fill: var(--svg-sparks-color);
+  }
 }

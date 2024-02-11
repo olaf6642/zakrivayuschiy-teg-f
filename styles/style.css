@@ -31,7 +31,7 @@
 
 .header__title {
   font-size: var(--clamp-logo);
-  margin-block-start: var(--clamp-margin-logo); 
+  margin-block-start: var(--clamp-margin-logo);
   margin-block-end: 20px;
 }
 
@@ -97,8 +97,8 @@
   position: relative;
   content: '';
   display: block;
-  height: 2px;    
-  bottom: -3px;       
+  height: 2px;
+  bottom: -3px;
   background-color: var(--accent-color);
   transform: scaleX(0);
   transform-origin: left;
@@ -155,8 +155,8 @@ html.theme-dark .article__title {
   font-family: var(--font-accent);
   font-size: 14px;
   mix-blend-mode: hard-light;
-  text-shadow: -1px 0 var(--stroke-color), 0 1px var(--stroke-color), 
-  1px 0 var(--stroke-color), 0 -1px var(--stroke-color);
+  text-shadow: -1px 0 var(--stroke-color), 0 1px var(--stroke-color),
+    1px 0 var(--stroke-color), 0 -1px var(--stroke-color);
 }
 
 .picture-html {
@@ -215,52 +215,52 @@ html.theme-dark .article__text {
 
 .heart .core {
   transition: fill 0.3s 0.03s linear;
-  fill: transparent; 
+  fill: transparent;
 }
 
 .heart .main-body {
   transition: fill 0.3s linear;
-  fill: transparent; 
+  fill: transparent;
 }
 
 .heart .contour {
   transition: fill 0.1s linear;
-  fill: var(--accent-color); 
+  fill: var(--accent-color);
 }
 
 .heart:hover .core {
   transition: fill 0.3s linear;
-  fill: var(--accent-color); 
+  fill: var(--accent-color);
 }
 
 .heart:hover .main-body {
   transition: fill 0.3s 0.05s linear;
-  fill: var(--accent-color); 
+  fill: var(--accent-color);
 }
 
 .heart:active .core {
   transition: fill 0.3s linear;
-  fill: var(--svg-sparks-color); 
+  fill: var(--svg-sparks-color);
 }
 
 .heart:active .main-body {
   transition: fill 0.3s 0.05s linear;
-  fill: var(--svg-sparks-color); 
+  fill: var(--svg-sparks-color);
 }
 
 .like-icon.is-liked .core {
   transition: fill 0.3s linear;
-  fill: var(--svg-sparks-color); 
+  fill: var(--svg-sparks-color);
 }
 
 .like-icon.is-liked .main-body {
   transition: fill 0.3s 0.05s linear;
-  fill: var(--svg-sparks-color); 
+  fill: var(--svg-sparks-color);
 }
 
 .like-icon.is-liked .contour {
   transition: fill 0.3s 0.06s linear;
-  fill: var(--svg-sparks-color); 
+  fill: var(--svg-sparks-color);
 }
 
 .like-icon.is-liked .heart {
@@ -298,7 +298,7 @@ html.theme-dark .article__text {
 
 .card__like-button:focus {
   transition: box-shadow 0.3s ease;
-  box-shadow: 2px 2px var(--accent-color); 
+  box-shadow: 2px 2px var(--accent-color);
 }
 
 .button__text {
@@ -328,7 +328,7 @@ html.theme-dark .article__text {
 .save__icon-button:focus {
   transition: box-shadow 0.3s;
   transition-timing-function: ease;
-  box-shadow: 2px 2px var(--accent-color);  
+  box-shadow: 2px 2px var(--accent-color);
 }
 
 .swipe-button:hover {
@@ -359,7 +359,7 @@ html.theme-dark .article__text {
   width: 0;
   height: 100%;
   background: var(--accent-color);
-  transition: all 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
   z-index: 2;
 }
 
@@ -381,7 +381,7 @@ html.theme-dark .article__text {
 
 dialog::backdrop {
   background-color: rgb(0 0 0 / 0.75);
-} 
+}
 
 .dialog-container {
   display: grid;
@@ -416,7 +416,7 @@ dialog::backdrop {
   text-transform: uppercase;
   border: 2px solid var(--accent-color);
   padding: 9px 0;
-} 
+}
 
 @media (width <=375px) {
   :root {
@@ -431,7 +431,7 @@ dialog::backdrop {
 
 @supports(-webkit-text-stroke: 0.2px #000) {
   .picture__label {
-      text-shadow: none;
-      -webkit-text-stroke: 0.2px var(--stroke-color);
+    text-shadow: none;
+    -webkit-text-stroke: 0.2px var(--stroke-color);
   }
-} 
+}
